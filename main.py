@@ -1,13 +1,5 @@
 import uvicorn as uvicorn
-from fastapi import FastAPI
-
-
-app = FastAPI()
-
-
-@app.get('/')
-def main():
-    return {'message': 'success'}
+from app.routes import app
 
 
 if __name__ == '__main__':
