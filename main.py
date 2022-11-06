@@ -1,5 +1,5 @@
 import uvicorn as uvicorn
-from app.routes import app
+from main_app.routes import app
 
 
 if __name__ == '__main__':
